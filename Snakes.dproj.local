@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.928,=E:\Proj\Delphi\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.431,=F:\Proj\Delphi\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.225,=E:\Proj\Delphi\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.305,F:\Proj\Delphi\Snakes\Main.pas=F:\Proj\Delphi\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.904,=F:\Proj\Delphi\Snakes\Painter.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.959,F:\Proj\Delphi\Snakes\Snakes.dproj=F:\Proj\Delphi\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.305,F:\Proj\Delphi\Snakes\Main.fmx=F:\Proj\Delphi\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.465,F:\Proj\Delphi\Snakes\SnakeUnit.pas=F:\Proj\Delphi\Snakes\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.396,F:\Proj\Delphi\Snakes\GameObject.pas=F:\Proj\Delphi\Snakes\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.679,=F:\Proj\Delphi\Snakes\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.512,=F:\Proj\Delphi\Snakes\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="apk-expansion.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="GameObject.pas"/>
+    <File Path="Main.pas"/>
+    <File Path="Main.fmx"/>
+    <File Path="Painter.pas"/>
+    <File Path="SnakeUnit.pas"/>
+  </ProjectSortOrder>
+	<MobileDevice>c3504ce6-Android</MobileDevice>
+</BorlandProject>

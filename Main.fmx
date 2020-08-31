@@ -1,0 +1,46 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Multisnakes'
+  ClientHeight = 596
+  ClientWidth = 830
+  Quality = HighQuality
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Orientations = [Landscape, InvertedLandscape]
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnMouseDown = FormMouseDown
+  OnResize = FormResize
+  Touch.GestureManager = GestureManager1
+  Touch.InteractiveGestures = [LongTap, DoubleTap]
+  OnGesture = FormGesture
+  DesignerMasterStyle = 0
+  object Timer: TTimer
+    Interval = 1
+    OnTimer = TimerTimer
+  end
+  object GestureManager1: TGestureManager
+    Sensitivity = 80.000000000000000000
+    Left = 400
+    Top = 288
+    GestureData = <
+      item
+        Control = Owner
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end
+          item
+            GestureID = sgiUp
+          end
+          item
+            GestureID = sgiDown
+          end>
+      end>
+  end
+end
